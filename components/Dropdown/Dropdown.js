@@ -18,6 +18,7 @@ class Dropdown {
     console.log(this);
     // Toggle the ".dropdown-hidden" class off and on
     this.content.classList.toggle('hidden');
+    // this.element.appendChild(this.content);
   }
 }
 
